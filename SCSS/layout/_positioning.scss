@@ -1,0 +1,89 @@
+/* || Text positioning/ text alignment || */
+
+.main-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.article-section-one {
+    display: flex;
+    align-items: center;
+}
+
+
+.main-section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section p {
+    padding: 1em;
+    height: 10vh;
+}
+
+.footer-grey-section p {
+    padding: 1em;
+    height: 10vh;
+}
+
+.header-aside {
+    padding: 5em;
+}
+
+
+// @media screen and (min-width: 1200px) {
+//     .aside-text-one {
+//     padding: 10.8em;
+    
+    
+
+// }
+
+// }
+
+@media screen and (min-width: 768px) {
+        body {
+            width: 90%;
+            margin: 0 auto;
+        }
+        
+        .header-aside {
+            padding: 0;
+        }
+
+        .main-section-one {
+            height: 50vh;
+            padding: 10%;
+        }
+
+        .main-section-one p {
+            margin-left: 20%;
+            margin-top: 0%;
+            
+        }
+
+        .main-section-one h2 {
+            padding: 0;
+        }
+
+        .main-section-two {
+            height: 50vh;
+            padding-top: 10%;
+            
+        }
+
+        // .main-section-two h2 {
+        //     margin-top: 10%;
+        // }
+
+        .main-section-two p {
+            width: 35%;
+            
+        }
+        
+       
+}

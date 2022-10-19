@@ -1,0 +1,22 @@
+/* || Transfers the scss code to the main css || */
+
+
+@use "base/reset" as *;
+
+@use "themes/backgrundcolors" as *;
+
+@use "abstracts/pictures" as img;
+
+@use "layout/textstyle";
+
+@use "components/buttons" as button;
+
+@use "layout/positioning";
+
+@use "layout/navigation";
+
+@use "layout/boxstyling";
+
+@use "components/transform";
+
+@use "layout/forms";

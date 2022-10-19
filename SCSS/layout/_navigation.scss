@@ -1,0 +1,44 @@
+/* || Navigation || */
+
+.nav-box {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    
+    
+    
+    
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: .3em;
+    font-size: 15px;
+    
+    
+
+    
+}
+
+.list-item {
+  width: 50%;
+  text-align: center;
+  
+  
+}
+
+
+@media screen and (min-width: 768px) {
+     .nav-box {
+       position: sticky;
+       
+       
+     }   
+
+     li {
+        padding-top: 2%;
+        padding-bottom: 2%;
+     }
+}

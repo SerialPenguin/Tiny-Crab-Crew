@@ -1,0 +1,19 @@
+/* || Transform that makes the card pictures jump up when hovered upon || */
+
+@media screen and (min-width: 768px) {
+    .child,
+    .woman,
+    .img-old {
+      transition: 1s;
+    }
+  
+    .child:hover {
+      transform: translateY(-2em);
+    }
+    .woman:hover {
+      transform: translateY(-2em);
+    }
+    .img-old:hover {
+      transform: translateY(-2em);
+    }
+  }

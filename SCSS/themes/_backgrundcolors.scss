@@ -1,0 +1,92 @@
+
+
+
+/* || Labels for the colors of the pages|| */
+
+$background-clr: #c7ddea;
+$primary-clr: #f17949;
+$accent-clr: #fab131;
+$section-clr: #a9a19e;
+$body-clr: #cfc9c9;
+
+/* || Background colors of the pages || */
+
+body {
+    background-color: $body-clr
+}
+
+
+.header-section {
+    background-color: $background-clr;
+    
+    
+}
+
+.header-aside:nth-of-type(1) {
+    background-color: $primary-clr;
+
+}
+
+.header-aside:nth-of-type(2) {
+    background-color: $accent-clr;
+
+}
+
+.page-nav {
+    background-color: $body-clr;
+   
+}
+
+.main-container {
+    background-color: $section-clr;
+}
+
+.main-section-two {
+    background-color: $accent-clr;
+}
+
+.picture-child {
+    background-color: $background-clr;
+}
+
+.picture-woman {
+    background-color: $accent-clr;
+}
+
+.picture-old {
+    background-color: $primary-clr;
+}
+
+.container-first {
+    background-color: $background-clr;
+    
+}
+
+.footer-grey-section {
+    background-color: rgb(206, 201, 201);
+}
+
+.footer-section:nth-of-type(2) {
+    background-color: $primary-clr;
+}
+
+.contact-header {
+    background-color: $background-clr;
+}
+
+.contact-form {
+    background-color: $section-clr;
+}
+
+.text-wrapper {
+    background-color: $accent-clr;
+}
+
+.footer-white-section {
+    background-color: white;
+}
+
+.footer-section-orange {
+    background-color: $primary-clr;
+}
+

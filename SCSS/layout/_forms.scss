@@ -1,0 +1,99 @@
+/* || Form of the contact page || */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1.5em 1em 10em 1em;
+    
+}
+
+.label-text {
+    padding: 2em 0 0.3rem 1rem;
+}
+
+.form-h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    background-color: #a9a19e;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.contact-form label {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 1em;
+    color: white;
+}
+
+#email {
+    width: 90%;
+    padding: .6rem 1rem;
+    border-radius: .2em;
+    border: none;
+   
+}
+
+.message {
+    padding: 1rem;
+    border: none;
+    width: 90%;
+    border-radius: .2em;
+    height: 20vh;
+    font-size: 1rem;
+    
+    
+}
+
+.form-container {
+    height: 70vh;
+    background-color: #a9a19e;
+}
+
+.form-wrapper {
+    flex-direction: column;
+    
+}
+
+
+@media screen and (min-width:768px) {
+     .contact-form {
+        width: 100%;
+        padding: 0;
+        flex-direction: row;
+        padding: 8rem 0;
+    }
+
+    #email {
+        width: 40rem;
+    }
+
+    .message {
+        padding: 1rem;
+        border: none;
+        width: 95%;
+        border-radius: .2em;
+        height: 20vh;
+        font-size: 1rem;
+        
+    }
+    
+    .form-button {
+        width: 30%;
+        margin-left: 70%;
+    }
+
+    .form-h2 {
+        width: 50;
+    
+    }
+
+    .contact-form label {
+        color: white;
+        margin-bottom: 5%;
+    }
+
+  
+    
+}

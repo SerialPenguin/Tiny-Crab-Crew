@@ -1,0 +1,64 @@
+/* || Pictures of the pages || */
+
+
+.family-picture {
+    width: 100%;
+}
+
+.img-old {
+    width: 40%;
+    
+}
+
+
+.child {
+    width: 30%;
+
+}
+
+.woman {
+    width: 30%;
+}
+
+.img-map {
+    width: 100%;
+}
+
+.manbaby {
+    width: 50%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .family-picture {
+        width: 60%;
+        position: absolute;
+        left: 35%;
+        bottom: -5%;
+        
+        }
+
+    .manbaby {
+        width: 20em;
+        padding-top: 2em;
+        margin-right: 15%;
+    }
+
+    .main-article {
+        width: 90%;
+       
+    }
+ 
+   .page-header {
+    width: 100%;
+   }
+
+   .img-map {
+     width: 100%;
+    
+    
+   }
+
+   
+  
+}

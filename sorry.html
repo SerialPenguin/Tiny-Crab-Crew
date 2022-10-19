@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./SCSS/main.css" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0 auto;
+        background-color: rgb(230, 225, 225);
+      }
+
+      h1 {
+        margin-top: 1em;
+        font-size: 30px;
+        margin-left: 2em;
+      }
+
+      .sorry-home {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        text-shadow: 1px 1px 1px;
+        margin-left: 5em;
+      }
+
+      .sorry-home:hover {
+        font-weight: 900;
+        color: rgb(39, 2, 8);
+      }
+
+      .penguin {
+        width: 100%;
+      }
+
+      @media screen and (min-width: 1200px) {
+        .penguin {
+          width: 50%;
+          padding-left: 25%;
+        }
+        .sorry-home {
+          display: flex;
+          justify-content: center;
+          padding-right: 6%;
+        }
+        h1 {
+          padding-left: 25%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sorry, we don't have enough penguins for this amount of work!</h1>
+    <img class="penguin" src="./SCSS/abstracts/penguin.jpg" alt="" />
+    <a class="sorry-home" href="index.html">Home</a>
+  </body>
+</html>

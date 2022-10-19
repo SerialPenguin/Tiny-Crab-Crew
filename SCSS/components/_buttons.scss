@@ -1,0 +1,96 @@
+/* || Buttons of the pages || */
+
+.join-button-one {
+    margin-left: 1em;
+    margin-top: 3em;
+    border: none;
+    border-radius: 40em;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 1em;
+    width: 40%;
+    box-shadow: 1px 1px 1px;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.join-button-two {
+    display: none;
+}
+
+.footer-button {
+    background-color: rgb(133, 119, 119);
+    border: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 1em;
+    width: 100%;
+    
+    
+    
+}
+
+.form-button {
+    padding: 1em 1em;
+    width: 40%;
+    margin-top: 1.5em;
+    border: none;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;    
+    box-shadow: 2px 2px 2px;
+    margin-left: 58%;
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    .join-button-one {
+        position: absolute;
+       width: 25%;
+       left: 20%;
+       margin-left: 0;
+       text-transform: uppercase;
+
+        
+    }
+
+    .list-item a:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+    a {
+        color: black;
+    }
+
+    .join-button-two {
+        position: absolute;
+        display: block;
+    margin-left: .6em;
+    margin-top: 15em;
+    border: none;
+    border-radius: 40em;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 1em;
+    box-shadow: 1px 1px 1px;
+    width: 12.5%; 
+    text-transform: uppercase;
+    
+             
+
+    }
+
+    .form-button {
+        // position: absolute;
+        width: 10%;
+    }
+
+}
+

@@ -1,0 +1,798 @@
+/* || Meyer-reset || */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* || Labels for the colors of the pages|| */
+/* || Background colors of the pages || */
+body {
+  background-color: #cfc9c9;
+}
+
+.header-section {
+  background-color: #c7ddea;
+}
+
+.header-aside:nth-of-type(1) {
+  background-color: #f17949;
+}
+
+.header-aside:nth-of-type(2) {
+  background-color: #fab131;
+}
+
+.page-nav {
+  background-color: #cfc9c9;
+}
+
+.main-container {
+  background-color: #a9a19e;
+}
+
+.main-section-two {
+  background-color: #fab131;
+}
+
+.picture-child {
+  background-color: #c7ddea;
+}
+
+.picture-woman {
+  background-color: #fab131;
+}
+
+.picture-old {
+  background-color: #f17949;
+}
+
+.container-first {
+  background-color: #c7ddea;
+}
+
+.footer-grey-section {
+  background-color: rgb(206, 201, 201);
+}
+
+.footer-section:nth-of-type(2) {
+  background-color: #f17949;
+}
+
+.contact-header {
+  background-color: #c7ddea;
+}
+
+.contact-form {
+  background-color: #a9a19e;
+}
+
+.text-wrapper {
+  background-color: #fab131;
+}
+
+.footer-white-section {
+  background-color: white;
+}
+
+.footer-section-orange {
+  background-color: #f17949;
+}
+
+/* || Pictures of the pages || */
+.family-picture {
+  width: 100%;
+}
+
+.img-old {
+  width: 40%;
+}
+
+.child {
+  width: 30%;
+}
+
+.woman {
+  width: 30%;
+}
+
+.img-map {
+  width: 100%;
+}
+
+.manbaby {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .family-picture {
+    width: 60%;
+    position: absolute;
+    left: 35%;
+    bottom: -5%;
+  }
+  .manbaby {
+    width: 20em;
+    padding-top: 2em;
+    margin-right: 15%;
+  }
+  .main-article {
+    width: 90%;
+  }
+  .page-header {
+    width: 100%;
+  }
+  .img-map {
+    width: 100%;
+  }
+}
+/* || Text style on pages || */
+h1 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 2.5rem;
+  padding: 1.2em;
+  font-weight: 900;
+}
+
+.nav-list {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.8rem;
+}
+
+.header-text {
+  font-family: "Fira Sans", sans-serif;
+  padding: 0.7em;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.list-item a {
+  font-size: 1.1rem;
+}
+
+span {
+  color: black;
+}
+
+.per-day {
+  color: white;
+}
+
+.aside-text {
+  font-family: "Frank Ruhl Libre", serif;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.header-aside h3 {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 2%;
+}
+
+.main-section-one h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 2.5rem;
+  padding: 0.7em;
+  color: white;
+  font-weight: 900;
+}
+
+.main-section-one p {
+  font-family: "Fira Sans", sans-serif;
+  padding: 0.5em;
+  line-height: 1.5rem;
+  margin-top: 0.7em;
+}
+
+.main-article p {
+  font-family: "Fira Sans", sans-serif;
+  padding: 1em;
+  font-size: 12.5px;
+  line-height: 1rem;
+  color: #a9a19e;
+  margin-top: 0.2em;
+}
+
+.main-article h3 {
+  font-family: "Frank Ruhl Libre", serif;
+  padding: 0.5em;
+  font-weight: 700;
+  margin-top: 6rem;
+}
+
+.main-section-two {
+  padding: 2em;
+}
+
+.main-section-two h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin-bottom: 0.3em;
+  text-shadow: 2px 2px 2px rgb(221, 211, 211);
+}
+
+.main-section-two p {
+  font-family: "Fira Sans", sans-serif;
+  padding: 3em;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 1rem;
+  color: rgba(5, 5, 5, 0.7);
+  text-align: center;
+  width: 70%;
+  margin-bottom: -3em;
+}
+
+.article-container h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  text-align: center;
+  padding: 1em;
+  font-size: 35px;
+  font-weight: bold;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.article-container p {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+  width: 50%;
+}
+
+.box-number {
+  display: inline-block;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  color: rgba(128, 128, 128, 0.8);
+  padding: 0.5em;
+}
+
+.text-wrapper h3 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .aside-text-one {
+    padding-top: 15%;
+  }
+  .page-one-h1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0;
+    margin-top: 5%;
+  }
+  .header-text {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0;
+    margin-top: 3%;
+  }
+  .contact-header h1 {
+    margin-top: 3em;
+    margin-right: 1em;
+    font-size: 55px;
+  }
+  .main-section-one h2 {
+    width: 60%;
+    margin-right: 10%;
+    font-size: 3em;
+  }
+  .main-section-one p {
+    width: 70%;
+  }
+  .main-section-two h2 {
+    padding: 5%;
+  }
+  .main-section-two p {
+    padding: 0;
+    margin-bottom: 1em;
+  }
+  .article-section-one p {
+    position: relative;
+  }
+  .aside-text-one {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+  }
+  .article-container h2 {
+    padding-top: 27%;
+  }
+  .article-container p {
+    margin-top: 9%;
+  }
+  .nav-list a {
+    font-size: 1rem;
+  }
+  .text-wrapper h3 {
+    padding: 2%;
+    font-size: 4rem;
+    margin-top: 0.2em;
+  }
+  .text-wrapper p {
+    margin-top: 0.1em;
+    padding: 2%;
+  }
+}
+/* || Buttons of the pages || */
+.join-button-one {
+  margin-left: 1em;
+  margin-top: 3em;
+  border: none;
+  border-radius: 40em;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 1em;
+  width: 40%;
+  box-shadow: 1px 1px 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.join-button-two {
+  display: none;
+}
+
+.footer-button {
+  background-color: rgb(133, 119, 119);
+  border: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 1em;
+  width: 100%;
+}
+
+.form-button {
+  padding: 1em 1em;
+  width: 40%;
+  margin-top: 1.5em;
+  border: none;
+  border-radius: 1em;
+  background-color: rgb(255, 255, 255);
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px;
+  margin-left: 58%;
+}
+
+@media only screen and (min-width: 768px) {
+  .join-button-one {
+    position: absolute;
+    width: 25%;
+    left: 20%;
+    margin-left: 0;
+    text-transform: uppercase;
+  }
+  .list-item a:hover {
+    color: black;
+    font-weight: bold;
+  }
+  a {
+    color: black;
+  }
+  .join-button-two {
+    position: absolute;
+    display: block;
+    margin-left: 0.6em;
+    margin-top: 15em;
+    border: none;
+    border-radius: 40em;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 1em;
+    box-shadow: 1px 1px 1px;
+    width: 12.5%;
+    text-transform: uppercase;
+  }
+  .form-button {
+    width: 10%;
+  }
+}
+/* || Text positioning/ text alignment || */
+.main-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+}
+
+.article-section-one {
+  display: flex;
+  align-items: center;
+}
+
+.main-section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-section p {
+  padding: 1em;
+  height: 10vh;
+}
+
+.footer-grey-section p {
+  padding: 1em;
+  height: 10vh;
+}
+
+.header-aside {
+  padding: 5em;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header-aside {
+    padding: 0;
+  }
+  .main-section-one {
+    height: 50vh;
+    padding: 10%;
+  }
+  .main-section-one p {
+    margin-left: 20%;
+    margin-top: 0%;
+  }
+  .main-section-one h2 {
+    padding: 0;
+  }
+  .main-section-two {
+    height: 50vh;
+    padding-top: 10%;
+  }
+  .main-section-two p {
+    width: 35%;
+  }
+}
+/* || Navigation || */
+.nav-box {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.3em;
+  font-size: 15px;
+}
+
+.list-item {
+  width: 50%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-box {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  li {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+}
+/* || Styling/ layout and position of divs on all pages|| */
+.article-section-one, .article-section-two, .article-section-three {
+  display: flex;
+  width: 65vw;
+  height: 35vh;
+  background-color: white;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  box-shadow: 5px 5px 5px;
+  border-radius: 0.5rem;
+}
+
+.picture-child, .picture-woman, .picture-old {
+  position: relative;
+  border-radius: 0.5rem;
+  width: 70%;
+  margin-bottom: -5rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.picture-child {
+  max-height: 100px;
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+.picture-woman {
+  max-height: 100px;
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+.picture-old {
+  max-height: 100px;
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.map-box {
+  height: 40%;
+  width: 40%;
+}
+
+.contact-article {
+  height: 40vh;
+}
+
+.map-box {
+  width: 100%;
+}
+
+.map-wrapper {
+  position: relative;
+}
+
+.text-wrapper {
+  position: absolute;
+  top: -2em;
+  left: 30%;
+  background-color: #fab131;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 35%;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .page-header {
+    display: flex;
+    height: 80vh;
+    position: relative;
+  }
+  .header-section {
+    width: 50%;
+  }
+  .aside-wrapper {
+    width: 50%;
+    height: 55vh;
+  }
+  .img-button-wrapper {
+    position: relative;
+    height: 55%;
+  }
+  .kaka {
+    height: 40%;
+    margin-right: 30%;
+  }
+  .header-aside {
+    height: 40vh;
+  }
+  header {
+    width: 100%;
+  }
+  .main-container {
+    position: relative;
+  }
+  .main-article {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 9%;
+    bottom: 35%;
+    left: -7%;
+  }
+  .card {
+    width: 30%;
+    margin-top: 130%;
+  }
+  .article-section-one {
+    width: 100%;
+  }
+  .article-section-two {
+    width: 100%;
+  }
+  .article-section-three {
+    width: 100%;
+  }
+  .picture-child {
+    padding: 7%;
+  }
+  .picture-woman {
+    padding: 7%;
+  }
+  .picture-old {
+    padding: 7%;
+  }
+  .main-section-one {
+    display: flex;
+  }
+  .article-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .article-container p {
+    padding: 20%;
+  }
+  .article-container section {
+    width: 33.33%;
+  }
+  .text-wrapper {
+    width: 20%;
+    height: 20%;
+    border-radius: 0;
+    margin-top: 15%;
+    margin-left: -20%;
+  }
+}
+/* || Transform that makes the card pictures jump up when hovered upon || */
+@media screen and (min-width: 768px) {
+  .child,
+.woman,
+.img-old {
+    transition: 1s;
+  }
+  .child:hover {
+    transform: translateY(-2em);
+  }
+  .woman:hover {
+    transform: translateY(-2em);
+  }
+  .img-old:hover {
+    transform: translateY(-2em);
+  }
+}
+/* || Form of the contact page || */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5em 1em 10em 1em;
+}
+
+.label-text {
+  padding: 2em 0 0.3rem 1rem;
+}
+
+.form-h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  background-color: #a9a19e;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.contact-form label {
+  font-family: "Fira Sans", sans-serif;
+  padding: 1em;
+  color: white;
+}
+
+#email {
+  width: 90%;
+  padding: 0.6rem 1rem;
+  border-radius: 0.2em;
+  border: none;
+}
+
+.message {
+  padding: 1rem;
+  border: none;
+  width: 90%;
+  border-radius: 0.2em;
+  height: 20vh;
+  font-size: 1rem;
+}
+
+.form-container {
+  height: 70vh;
+  background-color: #a9a19e;
+}
+
+.form-wrapper {
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-form {
+    width: 100%;
+    padding: 0;
+    flex-direction: row;
+    padding: 8rem 0;
+  }
+  #email {
+    width: 40rem;
+  }
+  .message {
+    padding: 1rem;
+    border: none;
+    width: 95%;
+    border-radius: 0.2em;
+    height: 20vh;
+    font-size: 1rem;
+  }
+  .form-button {
+    width: 30%;
+    margin-left: 70%;
+  }
+  .form-h2 {
+    width: 50;
+  }
+  .contact-form label {
+    color: white;
+    margin-bottom: 5%;
+  }
+}
+/* || Transfers the scss code to the main css || *//*# sourceMappingURL=main.css.map */

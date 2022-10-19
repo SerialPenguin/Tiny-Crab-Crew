@@ -1,0 +1,242 @@
+/* || Text style on pages || */
+
+h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.5rem;
+    padding: 1.2em;
+    font-weight: 900;
+    
+    
+}
+
+.nav-list {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: .8rem;
+}
+
+
+
+.header-text {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0.7em;
+    font-weight: 500;
+    line-height: 1.5;
+    
+}
+
+.list-item a {
+    font-size: 1.1rem;
+}
+
+
+span {
+    color: black;
+}
+
+.per-day {
+    color: white;
+    
+}
+
+.aside-text {
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+
+}
+
+.header-aside h3 {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-size: .8rem;
+    margin-bottom: 2%;
+
+}
+
+.main-section-one h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.5rem;
+    padding: .7em;
+    color: white;
+    font-weight: 900;
+}
+
+.main-section-one p {
+    font-family: 'Fira Sans', sans-serif;
+    padding: .5em;
+    line-height: 1.5rem;
+    margin-top: .7em;
+}
+
+.main-article p {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 1em;
+    font-size: 12.5px;
+    line-height: 1rem;
+    color: #a9a19e;
+    margin-top: .2em;
+    
+    
+}
+
+.main-article h3 {
+    font-family: 'Frank Ruhl Libre', serif;
+    padding: .5em;
+    font-weight: 700;
+    margin-top: 6rem;
+}
+
+.main-section-two {
+    padding: 2em;
+}
+
+.main-section-two h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-bottom: .3em;
+    text-shadow: 2px 2px 2px rgb(221, 211, 211);  
+}
+
+.main-section-two p {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 3em;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1rem;
+    color: rgb(5, 5, 5, 0.7);
+    text-align: center;
+    width: 70%;
+    margin-bottom: -3em;
+    
+    
+}
+
+
+.article-container h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    text-align: center;
+    padding: 1em;
+    font-size: 35px;
+    font-weight: bold;
+    width: 30%;
+    margin: 0 auto;
+    
+}
+
+.article-container p {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 1rem;
+    text-align: center;
+    width: 50%;
+   
+  
+    
+}
+
+.box-number {
+    display: inline-block;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    color: rgba(128, 128, 128, 0.8);
+    padding: .5em;    
+    
+
+
+}
+
+.text-wrapper h3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .aside-text-one {
+        padding-top: 15%;
+    }
+
+    .page-one-h1 {
+        // text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 0;
+        margin-top: 5%;
+    }
+
+    .header-text {
+        // text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 0;
+        margin-top: 3%;
+        
+    }
+
+    .contact-header h1 {
+        margin-top: 3em;
+        margin-right: 1em;
+        font-size: 55px;
+    }
+
+    .main-section-one h2 {
+        width: 60%;
+        margin-right: 10%;
+        font-size: 3em;
+    }
+
+    .main-section-one p {
+        width: 70%;
+        
+        
+    }
+
+    .main-section-two h2 {
+        padding: 5%;
+    }
+
+    .main-section-two p {
+        padding: 0;
+        margin-bottom: 1em;
+    }
+
+    .article-section-one p {
+        position: relative;
+    }
+
+
+
+    .aside-text-one {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 400;
+        
+    }
+
+    .article-container h2 {
+        padding-top: 27%;
+    }
+
+    .article-container p {
+        margin-top: 9%;
+    }
+
+    .nav-list a {
+        font-size: 1rem;
+    }
+
+    .text-wrapper h3 {
+        padding: 2%;
+        font-size: 4rem;
+        margin-top: .2em;
+    }
+    
+    .text-wrapper p {
+        
+        margin-top: .1em;
+        padding: 2%;
+    }
+}
